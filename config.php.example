@@ -1,0 +1,14 @@
+<?php
+// EDITE ESTE ARQUIVO no File Manager do Hostinger — nunca compartilhe estas chaves.
+// Depois de editar, confirme que https://SEU-SITE/api/config.php retorna erro 403 (o .htaccess bloqueia).
+
+return [
+  // console.anthropic.com → API keys (precisa de crédito, ~US$5 dá milhares de respostas)
+  'ANTHROPIC_API_KEY' => 'COLE_AQUI_SUA_CHAVE_ANTHROPIC',
+
+  // dashboard.stripe.com → Developers → API keys (sk_live_... ; use sk_test_ para testar)
+  'STRIPE_SECRET_KEY' => 'COLE_AQUI_SUA_CHAVE_STRIPE',
+
+  // Qualquer string longa aleatória (>= 32 caracteres). Ex.: gere em https://www.random.org/strings/
+  'TOKEN_SECRET' => 'TROQUE_POR_UMA_STRING_ALEATORIA_LONGA',
+];
