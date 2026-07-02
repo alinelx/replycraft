@@ -1,6 +1,4 @@
 <?php
-// EDITE ESTE ARQUIVO no File Manager do Hostinger — nunca compartilhe estas chaves.
-// Depois de editar, confirme que https://SEU-SITE/api/config.php retorna erro 403 (o .htaccess bloqueia).
 
 return [
   // console.anthropic.com → API keys (precisa de crédito, ~US$5 dá milhares de respostas)
